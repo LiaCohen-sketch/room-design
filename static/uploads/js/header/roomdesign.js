@@ -8,6 +8,7 @@
     "Your Daughter.",
     "Your Aunt.",
     "Your Uncle.",
+    "You.",
   ];
 
   let index = 0;
@@ -23,5 +24,7 @@
     }, 500);
   }, 2000);
 
-
-
+function quiz(){
+  fetch('/quiz')
+  location.href='/quiz'
+}

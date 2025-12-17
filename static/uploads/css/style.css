@@ -1,0 +1,95 @@
+body{
+    background-color: #ba4146;
+}
+.main{
+    background-color: #fde1d5;
+    height:   85vh;
+    width: 155vh;
+    border-radius: 8px;
+     position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: flex-start; /* כל התוכן מתחיל מהחלק העליון */
+    
+}
+.logo{
+    height: 20vh;
+    width: 20vh;
+    margin-left: 2vh;
+    margin-top: -3vh;
+}
+.hr-container {
+    display: flex;           /* עכשיו בשורה */
+    gap: 15px;               /* רווח בין הקווים */
+    justify-content: center; 
+    margin-top: -50px; /* מזיז את הקווים למעלה */
+    
+    
+}
+.hr {
+  border: none;            /* מבטל גבול רגיל */
+  height: 1px;             /* עובי הקו */
+  background-color: black; /* צבע הקו */
+  width: 150px;              /* רוחב הקו */
+  margin: 5px;       /* רווח ואמצע */
+}
+
+#formTwo{
+    background-color: #ba4146;
+}
+
+.pictures{
+    transition-duration: 0.4s;
+    width:190px;
+    height:190px;
+    display: grid;
+    border-radius: 30px;
+    align-items: center;
+}
+ .pictures:hover{
+    width:200px;
+    height:200px;
+    transition-duration: 0.4s;
+ }
+
+
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:30px;
+    margin-left:-20px;
+    justify-content: center;
+    margin-top:45px;
+}
+
+.picContainer{
+    width:1000px;
+}
+
+#uploadBtn{
+    transition-duration: 0.3s;
+    padding:7px;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 20px;
+    margin-top:-300px;
+    height:180px;
+    width:180px;
+    margin-left:922px;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; 
+    border:none;
+}
+
+#uploadBtn:hover{
+    transition-duration: 0.3s;
+    height:190px;
+    width:190px;    
+}
+
+#imageUpload{
+    margin-left:90px;
+}
