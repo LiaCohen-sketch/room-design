@@ -9,6 +9,7 @@ header.innerHTML = `
         background-color: #ba4146;
         font-family: "Outfit", sans-serif;
         border-radius: 4px;
+        height: 90px;
     }
 
     .header a {
@@ -24,20 +25,14 @@ header.innerHTML = `
         color:#ba4146;
     }
 
-  
-
-
-
-   
-    // }
   </style>
 
   <div class="header">
-      <a href="index.html" class="logo"><img src ="logo.png" width="120" height="80"></a>
+      <a href="index.html" class="logo"><img src ="logo.png" width="160" height="80"></a>
       <div class="header-right">
-          <a href="../comedy file/comedy.html">Items</a>
-          <a href="../romance file/romance.html">Astheatic Quiz</a>
-          <a href="../animation file/animation.html"></a>
+          <a href="">Items</a>
+          <a href="">Astheatic Quiz</a>
+          <a href=""></a>
               </div>
   </div>
 `;
