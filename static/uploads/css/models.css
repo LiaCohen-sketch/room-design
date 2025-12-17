@@ -33,6 +33,6 @@ body{
 }
 
 button{
-    width: 0.5vh;    /* was 5px */
-    height: 0.5vh;   /* was 5px */
+    width: 5px;
+    height: 5px;
 }
