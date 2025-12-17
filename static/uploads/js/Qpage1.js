@@ -1,6 +1,6 @@
 <script>
 function checkAge() {
-     age = Number(document.getElementById("age").value);
+     age = document.getElementById("age").value;
 
     if (age <= 10) {
         window.location.href = "/kids";

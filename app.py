@@ -13,7 +13,7 @@ def index():
 @app.route('/quiz')
 def quiz():
     return render_template('hi.html')
-    @app.route("/kids")
+@app.route("/kids")
 def kids():
     return render_template('blue.html')
 
