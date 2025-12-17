@@ -36,17 +36,17 @@ body{
 }
 
 .pictures{
-    transition-duration: 1s;
-    width:230px;
-    height:230px;
+    transition-duration: 0.4s;
+    width:190px;
+    height:190px;
     display: grid;
     border-radius: 30px;
     align-items: center;
 }
  .pictures:hover{
-    width:250px;
-    height:250px;
-    transition-duration: 1s;
+    width:200px;
+    height:200px;
+    transition-duration: 0.4s;
  }
 
 
@@ -56,5 +56,9 @@ body{
     flex-direction: row;
     gap:30px;
     justify-content: center;
-    margin-top:15px;
+    margin-top:45px;
+}
+
+.picContainer{
+    width:1000px;
 }
