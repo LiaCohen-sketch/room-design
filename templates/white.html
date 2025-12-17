@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="white.css">
+    <title>white bedrooms</title>
+</head>
+<body>
+    
+    <div class="main"><img class="logo" src="../WhatsApp_Image_2025-12-17_at_13.30.38-removebg-preview.png">
+   <div class="hr-container"> <hr class="hr" id="formOne"><hr class="hr" id="formTwo"><hr class="hr" id="formThree"></div>
+
+        <div id="pictures" class="picContainer">
+            <img id="p1" class="pictures" src="https://images.squarespace-cdn.com/content/v1/63dde481bbabc6724d988548/e1f31814-aa38-4e52-8b84-2642b7b76176/0.jfif.jpg" alt="whiteRoom1">
+            <img id="p2" class="pictures" src="https://miro.medium.com/v2/resize:fit:1400/0*NpClPHHrYtpujLPD" alt="whiteRoom2">
+            <img id="p3" class="pictures" src="https://images.squarespace-cdn.com/content/v1/63dde481bbabc6724d988548/a50c7da4-b26f-489f-8ede-a41d9e739dc8/Grown+Woman+Bedroom+Ideas" alt="whiteRoom3">
+            <img id="p4" class="pictures" src="https://diannedecor.com/wp-content/uploads/2024/01/grown-woman-bedroom-neutrals.jpg" alt="whiteRoom4">
+            <img id="p5" class="pictures" src="https://i.pinimg.com/736x/dc/33/77/dc3377866f17ad328e033994bd8305af.jpg" alt="whiteRoom5">
+            <img id="p6" class="pictures" src="https://www.craftedbeds.co.uk/cdn/shop/articles/406d15ce12e31196200fef624ff211cb.jpg?v=1656502258" alt="whiteRoom6">
+            <img id="p7" class="pictures" src="https://i.pinimg.com/236x/4a/28/2e/4a282e1ce0bd3203af12e30bb57582db.jpg" alt="whiteRoom7">
+            <img id="p8" class="pictures" src="https://i.pinimg.com/236x/0e/8c/fc/0e8cfc3a6f9b685156e722e9d5d05b56.jpg" alt="whiteRoom8">
+        </div>
+        <div id="upload_pic">
+            <button id="uploadBtn">Upload image</button>
+            <input type="file" id="imageUpload" accept="image/*" hidden>
+        </div>
+    </div>
+<script>
+  const uploadBtn = document.getElementById("uploadBtn");
+  const imageInput = document.getElementById("imageUpload");
+
+  uploadBtn.addEventListener("click", () => {
+    imageInput.click();
+  });
+
+  imageInput.addEventListener("change", () => {
+    if (imageInput.files.length > 0) {
+      uploadBtn.textContent = imageInput.files[0].name;
+    }
+  });
+</script>
+
+
+</body>
+</html>

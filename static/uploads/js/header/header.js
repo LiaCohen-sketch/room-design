@@ -27,10 +27,10 @@ header.innerHTML = `
 
   </style>
   <div class="header">
-      <a href="index.html" class="logo"><img src ="/header/logo.png" width="170" height="80"></a>
+      <a href="index.html" class="logo"><img src ="/static/uploads/images/logo.png" width="170" height="80"></a>
       <div class="header-right">
           <a href="">Items</a>
-          <a href="./pink/pink.html">Astheatic Quiz</a>
+          <a  onclick = "quiz()">Your Design Quiz</a>
               </div>
   </div>
 `;

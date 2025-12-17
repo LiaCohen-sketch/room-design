@@ -4,6 +4,7 @@ body{
     background-color: #fde1d5;
     color: #ba4146;
 }
+
 h1{
     font-family: "BBH Hegarty", sans-serif;
     font-size: 80px;
@@ -11,7 +12,10 @@ h1{
 
 p{
   font-family: "Outfit", sans-serif;
-    font-size: 22px;
+  position:absolute;
+  width:900px;
+  bottom:10px;
+  font-size: 22px;
 }
 
 #changingText {
@@ -22,4 +26,25 @@ p{
 #container {
   width:900px
   
+}
+
+#coffeetable {
+  position: absolute;
+  top: 110px;
+  right: 180px;
+    transform: rotate(10deg)
+
+}
+#armchair {
+  position: absolute;
+  top: 240px;
+  right: 10px;
+  transform: rotate(-20deg)
+}
+
+#lamp {
+  position: absolute;
+  top: 370px;
+  right: 170px;
+   transform: rotate(5deg)
 }
