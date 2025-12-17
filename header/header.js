@@ -26,13 +26,11 @@ header.innerHTML = `
     }
 
   </style>
-
   <div class="header">
-      <a href="index.html" class="logo"><img src ="logo.png" width="160" height="80"></a>
+      <a href="index.html" class="logo"><img src ="/header/logo.png" width="170" height="80"></a>
       <div class="header-right">
           <a href="">Items</a>
           <a href="">Astheatic Quiz</a>
-          <a href=""></a>
               </div>
   </div>
 `;
