@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 body{
     background-color: #ba4146;
 }
@@ -96,4 +98,15 @@ body{
 
 #imageUpload{
     margin-left:90px;
+}
+
+h1{
+    font-family: "BBH Hegarty", sans-serif;
+    font-size: 50px;
+    margin-top:20px;
+    margin-bottom:10px;
+    text-align: center;
+}
+.font{
+    font-family: "Outfit", sans-serif;
 }
