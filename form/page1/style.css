@@ -1,11 +1,14 @@
 body{
-    background-color: #ba4146;
+    background-color:  #ba4146;
+    margin: 0;
+    padding: 0;
 }
 .main{
+    margin-top: 7vh;
     background-color: #fde1d5;
-    height:   85vh;
-    width: 155vh;
-    border-radius: 8px;
+    height:   70vh;
+    width: 110vh;
+    border-radius: 10px;
 
      position: absolute;
      top: 50%;
@@ -34,4 +37,43 @@ body{
   background-color: black; /* צבע הקו */
   width: 150px;              /* רוחב הקו */
   margin: 5px;       /* רווח ואמצע */
+}
+   .header {
+    display: flex;
+    align-items: center;           
+    justify-content: space-between; 
+    height: 90px;
+    padding: 0;                    /* אין padding מצדדים */
+    background: linear-gradient(to bottom, #ba4146 0%, #9e3139 100%);
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.header .logo img {
+    height: 80px;
+    display: block;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;                     /* רווח בין הקישורים */
+    margin-left: auto;              /* דוחף את הקישורים ימינה */
+}
+
+.header-right a {
+    color: #fde1d5;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.header-right a:hover {
+    background-color: #fde1d5;
+    color: #ba4146;
+}
+.form-container a{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
