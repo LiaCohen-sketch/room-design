@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 body{
     background-color: #ba4146;
 }
@@ -10,33 +12,25 @@ body{
      top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: flex-start; /* כל התוכן מתחיל מהחלק העליון */
-    
+    justify-content: center; /* כל התוכן מתחיל מהחלק העליון */
 }
-.logo{
-    height: 20vh;
-    width: 20vh;
-    margin-left: 2vh;
-    margin-top: -3vh;
-}
+
 .hr-container {
-    display: flex;           /* עכשיו בשורה */
-    gap: 15px;               /* רווח בין הקווים */
-    justify-content: center; 
-    margin-top: -50px; /* מזיז את הקווים למעלה */
-    
-    
+    display: flex;   
+    gap:15px;    
+    justify-content: center;
+    margin-top: -50px;
 }
 
 #lineOne{
     background-color: #ba4146;
 }
 .hr {
-  border: none;            /* מבטל גבול רגיל */
-  height: 1px;             /* עובי הקו */
-  background-color: black; /* צבע הקו */
-  width: 150px;              /* רוחב הקו */
-  margin: 5px;       /* רווח ואמצע */
+  border: none; 
+  height: 1px;
+  background-color: black;         
+  width: 150px;            
+    margin: 5px;
 }
 
 #formTwo{
@@ -96,4 +90,23 @@ body{
 
 #imageUpload{
     margin-left:90px;
+}
+
+h1{
+    font-family: "BBH Hegarty", sans-serif;
+    font-size: 50px;
+    margin-top:60px;
+    margin-bottom:10px;
+    text-align: center;
+    color:#ba4146
+}
+.font{
+    font-family: "Outfit", sans-serif;
+    color:#ba4146
+}
+#form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

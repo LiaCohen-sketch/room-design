@@ -24,7 +24,6 @@
     }, 500);
   }, 2000);
 
-function quiz(){
-  fetch('/quiz')
-  location.href='/quiz'
+function quiz() {
+  window.location.href = "/quiz";
 }
