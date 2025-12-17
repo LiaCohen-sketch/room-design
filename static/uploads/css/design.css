@@ -8,7 +8,7 @@ body{
     margin-top: 11.111vh;
     background-color: #ba4146;
     height: 85vh;
-    width: 200vh;
+    width: 95vw;
     border-radius: 0.889vh;
     position: absolute;
     top: 50%;
@@ -43,6 +43,8 @@ body{
     display: grid;
     border-radius: 3.333vh;
     align-items: center;
+    
+    object-fit: cover;
 }
 
 .pictures:hover{
