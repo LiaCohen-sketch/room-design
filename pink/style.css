@@ -1,0 +1,60 @@
+body{
+    background-color: #ba4146;
+}
+.main{
+    background-color: #fde1d5;
+    height:   85vh;
+    width: 155vh;
+    border-radius: 8px;
+     position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: flex-start; /* כל התוכן מתחיל מהחלק העליון */
+    
+}
+.logo{
+    height: 20vh;
+    width: 20vh;
+    margin-left: 2vh;
+    margin-top: -3vh;
+}
+.hr-container {
+    display: flex;           /* עכשיו בשורה */
+    gap: 15px;               /* רווח בין הקווים */
+    justify-content: center; 
+    margin-top: -50px; /* מזיז את הקווים למעלה */
+    
+    
+}
+.hr {
+  border: none;            /* מבטל גבול רגיל */
+  height: 1px;             /* עובי הקו */
+  background-color: black; /* צבע הקו */
+  width: 150px;              /* רוחב הקו */
+  margin: 5px;       /* רווח ואמצע */
+}
+
+.pictures{
+    transition-duration: 1s;
+    width:230px;
+    height:230px;
+    display: grid;
+    border-radius: 30px;
+    align-items: center;
+}
+ .pictures:hover{
+    width:250px;
+    height:250px;
+    transition-duration: 1s;
+ }
+
+
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    margin-top:15px;
+}
