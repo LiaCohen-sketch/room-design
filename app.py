@@ -13,6 +13,8 @@ def index():
 
 @app.route('/quiz')
 def quiz():
+
+
     return render_template('hi.html')     
 if __name__ == "__main__":
     app.run(debug=True) 

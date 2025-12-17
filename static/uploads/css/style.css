@@ -27,6 +27,10 @@ body{
     
     
 }
+
+#lineOne{
+    background-color: #ba4146;
+}
 .hr {
   border: none;            /* מבטל גבול רגיל */
   height: 1px;             /* עובי הקו */
