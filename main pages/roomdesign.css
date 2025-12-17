@@ -28,14 +28,14 @@ p{
   position: absolute;
   top: 130px;
   right: 170px;
-    transform: rotate(20deg)
+    transform: rotate(-10deg)
 
 }
 #armchair {
   position: absolute;
   top: 300px;
   right: 20px;
-  transform: rotate(-20deg)
+  transform: rotate(-25deg)
 }
 
 #lamp {
