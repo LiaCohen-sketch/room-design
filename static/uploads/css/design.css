@@ -38,16 +38,16 @@ body{
 
 .pictures{
     transition-duration: 0.4s;
-    width: 21.11vh;
-    height: 21.11vh;
+    width: 190px;
+    height: 190px;
     display: grid;
     border-radius: 3.333vh;
     align-items: center;
 }
 
 .pictures:hover{
-    width: 20vh;   /* was 200px */
-    height: 20vh;  /* was 200px */
+    width: 200px;   /* was 200px */
+    height: 200px;  /* was 200px */
     transition-duration: 0.4s;
 }
 
@@ -62,19 +62,19 @@ body{
 }
 
 .picContainer{
-    width: 100vh; /* was 1000px */
+    width: 1000px; /* was 1000px */
 }
 
 #uploadBtn{
     transition-duration: 0.3s;
-    padding: 0.7vh;     /* was 7px */
+    padding: 0.7px;     /* was 7px */
     text-align: center;
     background-color: #fde1d5;
     border-radius: 2vh; /* was 20px */
-    margin-top: -30vh;  /* was -300px */
-    height: 18vh;       /* was 180px */
-    width: 18vh;        /* was 180px */
-    margin-left: 92.2vh;/* was 922px */
+    margin-top: -300px;  /* was -300px */
+    height: 180px;       /* was 180px */
+    width: 180px;        /* was 180px */
+    margin-left: 922px;/* was 922px */
     display: flex;
     justify-content: center;
     align-items: center;
