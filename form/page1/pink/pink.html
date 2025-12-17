@@ -9,7 +9,7 @@
 <body>
     
     <div class="main"><img class="logo" src="WhatsApp_Image_2025-12-17_at_13.30.38-removebg-preview.png">
-   <div class="hr-container"> <hr class="hr"><hr class="hr"><hr class="hr"></div>
+   <div class="hr-container"> <hr class="hr" id="formOne"><hr class="hr" id="formTwo"><hr class="hr" id="formThree"></div>
 
         <div id="pictures" class="picContainer">
             <img id="p1" class="pictures" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yuOvf7V8b6X_2KGtoAWAsHcO3Fw8HhG9Yg&s" alt="pinkRoom1">
@@ -22,10 +22,25 @@
             <img id="p8" class="pictures" src="https://cdn.mos.cms.futurecdn.net/ismA5twBBh3zHauPgKZmbk.jpg" alt="pinkRoom8">
         </div>
         <div id="upload_pic">
-            <input type="file" id="imageUpload" accept="image/*">
-
+            <button id="uploadBtn">Upload image</button>
+            <input type="file" id="imageUpload" accept="image/*" hidden>
         </div>
     </div>
-    
+<script>
+  const uploadBtn = document.getElementById("uploadBtn");
+  const imageInput = document.getElementById("imageUpload");
+
+  uploadBtn.addEventListener("click", () => {
+    imageInput.click();
+  });
+
+  imageInput.addEventListener("change", () => {
+    if (imageInput.files.length > 0) {
+      uploadBtn.textContent = imageInput.files[0].name;
+    }
+  });
+</script>
+
+
 </body>
 </html>
