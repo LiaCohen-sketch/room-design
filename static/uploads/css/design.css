@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    background-color: #fde1d5;
+}
+
+.main{
+    margin-top: 11.111vh;
+    background-color: #ba4146;
+    height: 85vh;
+    width: 95vw;
+    border-radius: 0.889vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: flex-start;
+}
+
+.hr-container {
+    display: flex;
+    gap: 1.667vh;
+    justify-content: center;
+    margin-top: 3vh; /* was -5.556px */
+}
+
+.hr {
+    
+    border: none;
+    height: 0.111vh;
+    background-color: black;
+    width: 180px;
+    height: 2px;    
+    margin: 0.056vh; /* was 0.556px */
+}
+
+#formTwo{
+    background-color: #c76164;
+}
+
+.pictures{
+    transition-duration: 0.4s;
+    width: 250px;
+    height: 250px;
+    display: grid;
+    border-radius: 3.333vh;
+    align-items: center;
+    
+    object-fit: cover;
+}
+
+.pictures:hover{
+    width: 270px;   /* was 200px */
+    height: 270px;  /* was 200px */
+    transition-duration: 0.4s;
+}
+
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 3vh;          /* was 30px */
+    margin-left: -2vh; /* was -20px */
+    justify-content: center;
+    margin-top: 4.5vh; /* was 45px */
+}
+
+.picContainer{
+    width: 1200px; /* was 1000px */
+}
+
+#uploadBtn{
+    transition-duration: 0.3s;
+    padding: 0.7px;     /* was 7px */
+    text-align: center;
+    background-color: #fde1d5;
+    border-radius: 2vh; /* was 20px */
+    margin-top: -410px;  /* was -300px */
+    height: 240px;       /* was 180px */
+    width: 240px;        /* was 180px */
+    margin-left: 1170px;/* was 922px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: "Outfit", sans-serif;
+}
+
+#uploadBtn:hover{
+    transition-duration: 0.3s;
+    height: 260px; /* was 190px */
+    width: 260px;  /* was 190px */
+}
+
+#imageUpload{
+    margin-left: 9vh; /* was 90px */
+}
+
+#pics_place{
+    margin-top:60px;
+}
