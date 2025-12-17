@@ -30,7 +30,7 @@ header.innerHTML = `
       <a href="index.html" class="logo"><img src ="/header/logo.png" width="170" height="80"></a>
       <div class="header-right">
           <a href="">Items</a>
-          <a href="">Astheatic Quiz</a>
+          <a href="./pink/pink.html">Astheatic Quiz</a>
               </div>
   </div>
 `;
