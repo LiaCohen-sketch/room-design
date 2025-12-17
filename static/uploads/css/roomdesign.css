@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background-color: #fde1d5;
+    color: #ba4146;
+}
+
+h1{
+    font-family: "BBH Hegarty", sans-serif;
+    font-size: 80px;
+}
+
+p{
+  font-family: "Outfit", sans-serif;
+  position:absolute;
+  width:900px;
+  bottom:10px;
+  font-size: 22px;
+}
+
+#changingText {
+  transition: opacity 0.6s ease-in-out;
+  opacity: 1;
+}
+
+#container {
+  width:900px
+  
+}
+
+#coffeetable {
+  position: absolute;
+  top: 110px;
+  right: 180px;
+    transform: rotate(10deg)
+
+}
+#armchair {
+  position: absolute;
+  top: 240px;
+  right: 10px;
+  transform: rotate(-20deg)
+}
+
+#lamp {
+  position: absolute;
+  top: 370px;
+  right: 170px;
+   transform: rotate(5deg)
+}
