@@ -1,39 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body{
-    background-color: #fde1d5 ;
+    background-color: #fde1d5;
 }
+
 .main{
-        margin-top: 100px;
+    margin-top: 11.111vh;
     background-color: #ba4146;
-    height:   85vh;
+    height: 85vh;
     width: 200vh;
-    border-radius: 8px;
-     position: absolute;
-     top: 50%;
+    border-radius: 0.889vh;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: flex-start; /* כל התוכן מתחיל מהחלק העליון */
-    
+    justify-content: flex-start;
 }
-/* .logo{
-    height: 20vh;
-    width: 20vh;
-    margin-left: 2vh;
-    margin-top: -3vh;
-} */
+
 .hr-container {
-    display: flex;           /* עכשיו בשורה */
-    gap: 15px;               /* רווח בין הקווים */
-    justify-content: center; 
-    margin-top: -50px; /* מזיז את הקווים למעלה */
-    
-    
+    display: flex;
+    gap: 1.667vh;
+    justify-content: center;
+    margin-top: -0.556vh; /* was -5.556px */
 }
+
 .hr {
-  border: none;            /* מבטל גבול רגיל */
-  height: 1px;             /* עובי הקו */
-  background-color: black; /* צבע הקו */
-  width: 150px;              /* רוחב הקו */
-  margin: 5px;       /* רווח ואמצע */
+    border: none;
+    height: 0.111vh;
+    background-color: black;
+    width: 16.667vh;
+    margin: 0.056vh; /* was 0.556px */
 }
 
 #formTwo{
@@ -42,55 +38,56 @@ body{
 
 .pictures{
     transition-duration: 0.4s;
-    width:190px;
-    height:190px;
+    width: 21.11vh;
+    height: 21.11vh;
     display: grid;
-    border-radius: 30px;
+    border-radius: 3.333vh;
     align-items: center;
 }
- .pictures:hover{
-    width:200px;
-    height:200px;
-    transition-duration: 0.4s;
- }
 
+.pictures:hover{
+    width: 20vh;   /* was 200px */
+    height: 20vh;  /* was 200px */
+    transition-duration: 0.4s;
+}
 
 #pictures{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap:30px;
-    margin-left:-20px;
+    gap: 3vh;          /* was 30px */
+    margin-left: -2vh; /* was -20px */
     justify-content: center;
-    margin-top:45px;
+    margin-top: 4.5vh; /* was 45px */
 }
 
 .picContainer{
-    width:1000px;
+    width: 100vh; /* was 1000px */
 }
 
 #uploadBtn{
     transition-duration: 0.3s;
-    padding:7px;
+    padding: 0.7vh;     /* was 7px */
     text-align: center;
-    background-color: darkgray;
-    border-radius: 20px;
-    margin-top:-300px;
-    height:180px;
-    width:180px;
-    margin-left:922px;
+    background-color: #fde1d5;
+    border-radius: 2vh; /* was 20px */
+    margin-top: -30vh;  /* was -300px */
+    height: 18vh;       /* was 180px */
+    width: 18vh;        /* was 180px */
+    margin-left: 92.2vh;/* was 922px */
     display: flex;
-    justify-content: center; /* horizontal */
-    align-items: center; 
-    border:none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: "Outfit", sans-serif;
 }
 
 #uploadBtn:hover{
     transition-duration: 0.3s;
-    height:190px;
-    width:190px;    
+    height: 19vh; /* was 190px */
+    width: 19vh;  /* was 190px */
 }
 
 #imageUpload{
-    margin-left:90px;
+    margin-left: 9vh; /* was 90px */
 }

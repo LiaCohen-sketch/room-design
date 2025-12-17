@@ -1,37 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body{
-    background-color: #fde1d5 ;
+    background-color: #fde1d5;
 }
+
 .main{
-    margin-top: 100px;
+    margin-top: 10vh;           /* was 100px */
     background-color: #ba4146;
-    height:   85vh;
+    height: 85vh;
     width: 200vh;
-    border-radius: 8px;
-     position: absolute;
-     top: 50%;
+    border-radius: 0.8vh;       /* was 8px */
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: center; /* כל התוכן מתחיל מהחלק העליון */
+    justify-content: center;
 }
 
 .hr-container {
     display: flex;   
-    gap:15px;    
+    gap: 1.5vh;                 /* was 15px */
     justify-content: center;
-    margin-top: -50px;
+    margin-top: -5vh;           /* was -50px */
 }
 
 #lineOne{
     background-color: #ba4146;
 }
+
 .hr {
-  border: none; 
-  height: 1px;
-  background-color: black;         
-  width: 150px;            
-    margin: 5px;
+    border: none; 
+    height: 0.1vh;              /* was 1px */
+    background-color: black;         
+    width: 15vh;                /* was 150px */
+    margin: 0.5vh;              /* was 5px */
 }
 
 #formTwo{
@@ -40,71 +43,73 @@ body{
 
 .pictures{
     transition-duration: 0.4s;
-    width:190px;
-    height:190px;
+    width: 19vh;                /* was 190px */
+    height: 19vh;               /* was 190px */
     display: grid;
-    border-radius: 30px;
+    border-radius: 3vh;         /* was 30px */
     align-items: center;
 }
- .pictures:hover{
-    width:200px;
-    height:200px;
-    transition-duration: 0.4s;
- }
 
+.pictures:hover{
+    width: 20vh;                /* was 200px */
+    height: 20vh;               /* was 200px */
+    transition-duration: 0.4s;
+}
 
 #pictures{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap:30px;
-    margin-left:-20px;
+    gap: 3vh;                   /* was 30px */
+    margin-left: -2vh;          /* was -20px */
     justify-content: center;
-    margin-top:45px;
+    margin-top: 4.5vh;          /* was 45px */
 }
 
 .picContainer{
-    width:1000px;
+    width: 100vh;               /* was 1000px */
 }
 
 #uploadBtn{
     transition-duration: 0.3s;
-    padding:7px;
+    padding: 0.7vh;             /* was 7px */
     text-align: center;
     background-color: darkgray;
-    border-radius: 20px;
-    margin-top:-300px;
-    height:180px;
-    width:180px;
-    margin-left:922px;
+    border-radius: 2vh;          /* was 20px */
+    margin-top: -30vh;           /* was -300px */
+    height: 18vh;                /* was 180px */
+    width: 18vh;                 /* was 180px */
+    margin-left: 92.2vh;         /* was 922px */
     display: flex;
-    justify-content: center; /* horizontal */
+    justify-content: center;
     align-items: center; 
     border:none;
 }
 
 #uploadBtn:hover{
     transition-duration: 0.3s;
-    height:190px;
-    width:190px;    
+    height: 19vh;                /* was 190px */
+    width: 19vh;                 /* was 190px */    
 }
 
 #imageUpload{
-    margin-left:90px;
+    margin-left: 9vh;            /* was 90px */
 }
 
 h1{
     font-family: "BBH Hegarty", sans-serif;
-    font-size: 50px;
-    margin-top:60px;
-    margin-bottom:10px;
+    font-size: 5vh;              /* was 50px */
+    margin-top: 6vh;             /* was 60px */
+    margin-bottom: 1vh;          /* was 10px */
     text-align: center;
-    color:#fde1d5
+    color:#fde1d5;
 }
+
 .font{
     font-family: "Outfit", sans-serif;
-    color:#fde1d5
+    color:#fde1d5;
 }
+
 #form-container{
     display: flex;
     flex-direction: column;
