@@ -1,0 +1,33 @@
+body{
+    background-image: url("img/room-example2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#closet{
+    position: relative;
+    top: 275px;
+    left: 51%;
+    width: 400px;
+}
+
+#bed{
+    position: relative;
+    top: 380px;
+    left: -4%;
+    width: 450px;
+}
+
+#desk{
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 450px;
+}
+
+#posters{
+    position: relative;
+    top: -200px;
+    left: 13%;
+    width: 300px;
+}
