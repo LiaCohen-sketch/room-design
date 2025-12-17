@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 body{
-    background-color: #ba4146;
+    background-color: #fde1d5 ;
 }
 .main{
-    background-color: #fde1d5;
+    margin-top: 100px;
+    background-color: #ba4146;
     height:   85vh;
-    width: 155vh;
+    width: 200vh;
     border-radius: 8px;
      position: absolute;
      top: 50%;
@@ -98,11 +99,11 @@ h1{
     margin-top:60px;
     margin-bottom:10px;
     text-align: center;
-    color:#ba4146
+    color:#fde1d5
 }
 .font{
     font-family: "Outfit", sans-serif;
-    color:#ba4146
+    color:#fde1d5
 }
 #form-container{
     display: flex;

@@ -1,10 +1,11 @@
 body{
-    background-color: #ba4146;
+    background-color:#fde1d5 ;
 }
 .main{
-    background-color: #fde1d5;
+    margin-top: 100px;
+    background-color: #ba4146;
     height:   85vh;
-    width: 155vh;
+    width: 200vh;
     border-radius: 8px;
      position: absolute;
      top: 50%;
@@ -13,12 +14,7 @@ body{
     justify-content: flex-start; /* כל התוכן מתחיל מהחלק העליון */
     
 }
-.logo{
-    height: 20vh;
-    width: 20vh;
-    margin-left: 2vh;
-    margin-top: -3vh;
-}
+
 .hr-container {
     display: flex;           /* עכשיו בשורה */
     gap: 15px;               /* רווח בין הקווים */
@@ -36,7 +32,7 @@ body{
 }
 
 #formTwo{
-    background-color: #ba4146;
+    background-color: #fde1d5 ;
 }
 
 .pictures{
@@ -61,7 +57,7 @@ body{
     gap:30px;
     margin-left:-20px;
     justify-content: center;
-    margin-top:45px;
+    margin-bottom:30px;
 }
 
 .picContainer{
