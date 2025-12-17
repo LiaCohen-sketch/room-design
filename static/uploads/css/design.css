@@ -25,10 +25,12 @@ body{
 }
 
 .hr {
+    
     border: none;
     height: 0.111vh;
     background-color: black;
-    width: 16.667vh;
+    width: 180px;
+    height: 2px;    
     margin: 0.056vh; /* was 0.556px */
 }
 
