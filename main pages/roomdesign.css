@@ -23,3 +23,24 @@ p{
   width:900px
   
 }
+
+#coffeetable {
+  position: absolute;
+  top: 130px;
+  right: 170px;
+    transform: rotate(20deg)
+
+}
+#armchair {
+  position: absolute;
+  top: 300px;
+  right: 20px;
+  transform: rotate(-20deg)
+}
+
+#lamp {
+  position: absolute;
+  top: 470px;
+  right: 170px;
+   transform: rotate(5deg)
+}
