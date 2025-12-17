@@ -6,28 +6,28 @@ body{
 
 #closet{
     position: relative;
-    top: 27.5vh;     /* was 275px */
+    top: 275px;
     left: 51%;
-    width: 40vh;     /* was 400px */
+    width: 400px;
 }
 
 #bed{
     position: relative;
-    top: 38vh;       /* was 380px */
+    top: 380px;
     left: -4%;
-    width: 45vh;     /* was 450px */
+    width: 450px;
 }
 
 #desk{
     position: relative;
-    top: 20vh;       /* was 200px */
+    top: 200px;
     left: 10%;
-    width: 45vh;     /* was 450px */
+    width: 450px;
 }
 
 #posters{
     position: relative;
-    top: -20vh;      /* was -200px */
+    top: -200px;
     left: 13%;
-    width: 30vh;     /* was 300px */
+    width: 300px;
 }
