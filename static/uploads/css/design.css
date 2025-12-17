@@ -21,7 +21,7 @@ body{
     display: flex;
     gap: 1.667vh;
     justify-content: center;
-    margin-top: -0.556vh; /* was -5.556px */
+    margin-top: 3vh; /* was -5.556px */
 }
 
 .hr {
@@ -33,7 +33,7 @@ body{
 }
 
 #formTwo{
-    background-color: #ba4146;
+    background-color: #c76164;
 }
 
 .pictures{
@@ -74,7 +74,7 @@ body{
     margin-top: -410px;  /* was -300px */
     height: 240px;       /* was 180px */
     width: 240px;        /* was 180px */
-    margin-left: 1200px;/* was 922px */
+    margin-left: 1170px;/* was 922px */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,10 +84,14 @@ body{
 
 #uploadBtn:hover{
     transition-duration: 0.3s;
-    height: 19vh; /* was 190px */
-    width: 19vh;  /* was 190px */
+    height: 260px; /* was 190px */
+    width: 260px;  /* was 190px */
 }
 
 #imageUpload{
     margin-left: 9vh; /* was 90px */
+}
+
+#pics_place{
+    margin-top:60px;
 }
