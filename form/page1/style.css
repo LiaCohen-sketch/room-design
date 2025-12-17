@@ -39,6 +39,7 @@ body{
   margin: 5px;       /* רווח ואמצע */
 }
    .header {
+    background-color: #ba4146;
     display: flex;
     align-items: center;           
     justify-content: space-between; 

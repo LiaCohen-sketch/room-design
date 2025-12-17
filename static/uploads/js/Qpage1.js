@@ -1,7 +1,6 @@
-<script>
-function checkAge() {
-     age = document.getElementById("age").value;
 
+function checkAge() {
+    const age = document.getElementById("age").value;
     if (age <= 10) {
         window.location.href = "/kids";
     } 
@@ -15,4 +14,3 @@ function checkAge() {
         alert("No matching age group");
     }
 }
-</script>

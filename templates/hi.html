@@ -15,68 +15,71 @@
     <title>Document</title>
 </head>
 <body>
-<div id = "header"></div>
+<div class = "header">
+      <div class="header">
+      <a href="index.html" class="logo"><img src ="../static/uploads/images/logo.png" width="170" height="80"></a>
+      <div class="header-right">
+          <a href="">Items</a>
+          <a  onclick = "quiz()">Your Design Quiz</a>
+              </div>
+  </div>
+</div>
 <div class="main">
 <div class="hr-container"> 
     <hr class="hr" id="lineOne"><hr class="hr" id="lineTwo"><hr class="hr" id="lineThree">
 </div>
-<div class="form-container">
-        <h1>Information Form</h1>
+<br><br>
+<h1>Information Form</h1>
+    <div class="form-container">
         <form>
-            <!-- Age -->
-            <label for="age" class = "font" id="age">What is your age?</label>
-            <input type="number" id="age" name="age" min="0" max="120" required>
-<br>
-            <!-- Favorite Color -->
-            <label class = "font"="color">What is your favorite color?</label>
-            <select class = "font" id="color" name="color" required>
-                <option value="">Select a color</option>
-                <option value="red">Red</option>
-                <option value="blue">Orange</option>
-                <option value="green">Yellow</option>
-                <option value="yellow">Green</option>
-                <option value="pink">Blue</option>
-                <option value="purple">Purple</option>
-                <option value="white">Pink</option>
-                <option value="black">Black</option>
-            </select>
-<br>
-            <!-- Height -->
-            <label class = "font" for="height">What is your height (cm)?</label>
-            <input class = "font" type="number" id="height" name="height" min="100" max="250" required>
-<br>
-            <!-- Gender -->
-            <label class = "font">Gender</label>
-            <div class = "font" class="radio-group">
-                <label><input type="radio" name="gender" value="male" required> Male</label>
-                <label><input type="radio" name="gender" value="female"> Female</label>
-            </div>
-<br>
-            <!-- Disability -->
-            <label class = "font">Do you have a disability?</label>
-            <div class = "font" class="radio-group">
-                <label><input type="radio" name="disability" value="yes" onclick="showOptions()" required> Yes</label>
-                <label><input type="radio" name="disability" value="no"> No</label>
-            </div>
-<br>
-            <!-- Disability options -->
-            <div class = "font" id="disability-options" ">
-                <label for="disability-type">What type of disability?</label>
-                <select id="disability-type" name="disability-type">
-                    <option value="">Select type</option>
-                    <option value="Physical">Physical</option>
-                    <option value="Visual">Visual</option>
-                    <option value="Hearing">Hearing</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-<br>
-            <!-- Submit Button -->
-            <button class = "font" type="submit" >Submit</button>
+<div class="form-container">
+        <div class="form-grid">
+
+  <!-- גיל -->
+  <div class="input-box">
+    <i class="icon">🎂</i>
+    <input type="number" id="age" required>
+    <label>What is your age?</label>
+  </div>
+
+  <!-- צבע -->
+  <div class="input-box">
+    <i class="icon">🎨</i>
+    <select id="color" required>
+      <option value="" disabled selected></option>
+      <option value="red">pink</option>
+      <option value="red">Red</option>
+      <option value="orange">Orange</option>
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+    </select>
+    <label>Favorite color</label>
+  </div>
+
+  <!-- גובה -->
+  <div class="input-box">
+    <i class="icon">📏</i>
+    <input type="number" id="height" required>
+    <label>Height (cm)</label>
+  </div>
+
+  <!-- מגדר -->
+  <div class="radio-box">
+    <span class="radio-title">Gender</span>
+    <label><input type="radio" name="gender"> Male</label>
+    <label><input type="radio" name="gender"> Female</label>
+  </div>
+
+</div>
+
+<button type="button" class="btn" onclick="checkAge()">Continue</button>
+
         </form>
     </div>
     </div>
             <script src="../static/uploads/js/header/header.js"></script>
              <script src="../static/uploads/js/Qpage1.js"></script>
+             <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>

@@ -15,6 +15,7 @@ def quiz():
     return render_template('hi.html')
 @app.route("/kids")
 def kids():
+    
     return render_template('blue.html')
 
 @app.route("/teens")
