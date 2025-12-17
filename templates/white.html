@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="white.css">
+    <title>white bedrooms</title>
+</head>
+<body>
+    
+    <div class="main"><img class="logo" src="../WhatsApp_Image_2025-12-17_at_13.30.38-removebg-preview.png">
+   <div class="hr-container"> <hr class="hr" id="formOne"><hr class="hr" id="formTwo"><hr class="hr" id="formThree"></div>
+
+        <div id="pictures" class="picContainer">
+            <img id="p1" class="pictures" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yuOvf7V8b6X_2KGtoAWAsHcO3Fw8HhG9Yg&s" alt="whiteRoom1">
+            <img id="p2" class="pictures" src="https://hips.hearstapps.com/hmg-prod/images/pink-bedroom-ideas-angie-hranowsky-1639509777.jpeg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*" alt="whiteRoom2">
+            <img id="p3" class="pictures" src="https://images.livspace-cdn.com/w:3840/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/1-2025-1736068988-NDPD1/ond-1759736307-rv9SV/kbr-1759750566-lYFZd/kb-2-1761578993-Rr1AL.jpg" alt="whiteRoom3">
+            <img id="p4" class="pictures" src="https://i.pinimg.com/564x/9c/3e/02/9c3e026ca5e385ae8d87667a7a452be9.jpg" alt="whiteRoom4">
+            <img id="p5" class="pictures" src="https://i.pinimg.com/564x/40/24/d0/4024d0a9a47b5eec640ae586d1af0a3d.jpg" alt="whiteRoom5">
+            <img id="p6" class="pictures" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvdhbZW1g-8mLKtle66l5nw194ajSUFWUtXw&s" alt="whiteRoom6">
+            <img id="p7" class="pictures" src="https://www.aestheticroomcore.com/cdn/shop/collections/minimalist_color_palette-6_30.png?v=1717164639" alt="whiteRoom7">
+            <img id="p8" class="pictures" src="https://cdn.mos.cms.futurecdn.net/ismA5twBBh3zHauPgKZmbk.jpg" alt="whiteRoom8">
+        </div>
+        <div id="upload_pic">
+            <button id="uploadBtn">Upload image</button>
+            <input type="file" id="imageUpload" accept="image/*" hidden>
+        </div>
+    </div>
+<script>
+  const uploadBtn = document.getElementById("uploadBtn");
+  const imageInput = document.getElementById("imageUpload");
+
+  uploadBtn.addEventListener("click", () => {
+    imageInput.click();
+  });
+
+  imageInput.addEventListener("change", () => {
+    if (imageInput.files.length > 0) {
+      uploadBtn.textContent = imageInput.files[0].name;
+    }
+  });
+</script>
+
+
+</body>
+</html>
