@@ -33,5 +33,7 @@ header.innerHTML = `
           <a  onclick = "quiz()">Your Design Quiz</a>
               </div>
   </div>
+      <script src="../static/uploads/roomdesign.js"></script>
+
 `;
 

@@ -9,12 +9,9 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 def index():
     return render_template('index.html')
 
-
-
 @app.route('/quiz')
 def quiz():
+        return render_template('hi.html')
 
-
-    return render_template('hi.html')     
 if __name__ == "__main__":
     app.run(debug=True) 
