@@ -31,3 +31,4 @@ function blueM(){
 function pinkM(){
     window.location.href = "/pinkM";
 }
+
