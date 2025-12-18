@@ -26,6 +26,14 @@ def teens():
 def adults():
     return render_template('white.html')
 
+@app.route("/pinkM")
+def pinkM():
+    return render_template('models.html')
+
+@app.route("/blueM")
+def blueM():
+    return render_template('models2.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
