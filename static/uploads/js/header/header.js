@@ -27,7 +27,7 @@ header.innerHTML = `
 
   </style>
   <div class="header">
-      <a href="{{ url_for('index') }}" class="logo"><img src ="../static/uploads/images/logo.png" alt = "logo" width="170" height="80"></a>
+      <a href="/" class="logo" onclick="homePage()"><img src ="../static/uploads/images/logo.png" width="170" height="80"></a>
       <div class="header-right">
           <a  onclick = "quiz()">Your Design Quiz</a>
               </div>
