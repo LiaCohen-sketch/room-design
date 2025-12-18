@@ -24,3 +24,19 @@ function showDisabilityDetails() {
     document.getElementById("disability").style.display = "block";
 } 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+function blueM(){
+    window.location.href = "/blueM";
+}
+
+function pinkM(){
+    window.location.href = "/pinkM";
+}
+=======
+function models(){
+    
+}
+>>>>>>> b87d363e7cc9471cec8f88e839c0a0338c3ee30c
+>>>>>>> 0798b40698d1a1bd285be6dc42956809b45cd200
