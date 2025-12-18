@@ -23,3 +23,11 @@ function checkAge() {
 function showDisabilityDetails() {
     document.getElementById("disability").style.display = "block";
 } 
+
+function blueM(){
+    window.location.href = "/blueM";
+}
+
+function pinkM(){
+    window.location.href = "/pinkM";
+}
