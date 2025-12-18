@@ -20,7 +20,7 @@ def blue():
 
 @app.route("/pink")
 def pink():
-    return render_template('pink.html')
+    return render_template('/tamplates/pink.html')
 
 @app.route("/white")
 def white():
