@@ -16,15 +16,14 @@ function checkAge() {
     else {
         window.location.href = "/white";
     }
-
-    return false; 
 }
+<<<<<<< HEAD
+=======
 
 function showDisabilityDetails() {
     document.getElementById("disability").style.display = "block";
 } 
 
-<<<<<<< HEAD
 function blueM(){
     window.location.href = "/blueM";
 }
@@ -32,8 +31,5 @@ function blueM(){
 function pinkM(){
     window.location.href = "/pinkM";
 }
-=======
-function models(){
-    
-}
->>>>>>> b87d363e7cc9471cec8f88e839c0a0338c3ee30c
+
+>>>>>>> 1df3ab04ba5344a07ccdb67359ab1e03a5275527
