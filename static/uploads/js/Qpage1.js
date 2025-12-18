@@ -24,6 +24,3 @@ function showDisabilityDetails() {
     document.getElementById("disability").style.display = "block";
 } 
 
-function models(){
-    
-}
