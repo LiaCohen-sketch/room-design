@@ -1,4 +1,3 @@
-<script>
 function checkAge() {
      age = document.getElementById("age").value;
 
@@ -15,4 +14,3 @@ function checkAge() {
         alert("No matching age group");
     }
 }
-</script>
