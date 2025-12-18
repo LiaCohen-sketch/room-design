@@ -1,6 +1,7 @@
-function checkAge(age) {
-    const age = document.getElementById("age").value;
-    console.log(age);
+
+function checkAge() {
+    var age = document.getElementById("age").value;
+
     if (age <= 10) {
         window.location.href = "/blue";
     } 
@@ -28,3 +29,15 @@ function pinkM(){
     window.location.href = "/pinkM";
 }
 
+function submitForm(){
+    var age = parseInt(document.getElementById("budget").value);
+    console.log(age, typeof age);
+
+
+    if (budget <= 1000) {
+        window.location.href = "/models2";
+    } 
+    else {
+        window.location.href = "/models";
+    } 
+}
