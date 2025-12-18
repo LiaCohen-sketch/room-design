@@ -29,14 +29,12 @@ function pinkM(){
 }
 
 function submitForm(){
-    var age = parseInt(document.getElementById("budget").value);
-    console.log(age, typeof age);
-
+    var budget = document.getElementById("budget").value;
 
     if (budget <= 1000) {
-        window.location.href = "/models2";
+        window.location.href = "/models";
     } 
     else {
-        window.location.href = "/models";
+        window.location.href = "/models2";
     } 
 }
