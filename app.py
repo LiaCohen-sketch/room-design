@@ -34,6 +34,15 @@ def pinkM():
 def blueM():
     return render_template('page3.html')
 
+@app.route("/models")
+def models():
+    return render_template('models.html')
+
+@app.route("/models2")
+def models2():
+    return render_template('models2.html')
+
+     
 
 if __name__ == "__main__":
     app.run(debug=True)
