@@ -1,16 +1,19 @@
 function checkAge() {
-     age = document.getElementById("age").value;
+    const form = document.getElementById("intoform");
+
+    if (!form.checkValidity()) {
+        return false;
+    }
+
+    const age = document.getElementById("age").value;
 
     if (age <= 10) {
-        window.location.href = "/kids";
+        window.location.href = "/blue";
     } 
-    else if (age >= 12 && age <= 18) {
-        window.location.href = "/teens";
-    } 
-    else if (age > 30) {
-        window.location.href = "/adults";
+    else if (age <= 18) {
+        window.location.href = "/pink";
     } 
     else {
-        alert("No matching age group");
+        window.location.href = "/white";
     }
 }

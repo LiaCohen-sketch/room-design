@@ -3,13 +3,15 @@
 
 body{
     background-color: #fde1d5;
+    margin: 0;
+    padding: 0;
 }
 
 .main{
     margin-top: 10vh;           /* was 100px */
     background-color: #ba4146;
-    height: 85vh;
-    width: 200vh;
+    height: 70vh;
+    width: 150vh;
     border-radius: 0.8vh;       /* was 8px */
     position: absolute;
     top: 50%;
@@ -19,14 +21,15 @@ body{
 }
 
 .hr-container {
+    position: relative;
     display: flex;   
     gap: 1.5vh;                 /* was 15px */
     justify-content: center;
-    margin-top: -5vh;           /* was -50px */
+    top: 4vh;           /* was -50px */
 }
 
 #lineOne{
-    background-color: #ba4146;
+    background-color: #fde1d5;
 }
 
 .hr {
@@ -98,9 +101,8 @@ body{
 
 h1{
     font-family: "BBH Hegarty", sans-serif;
-    font-size: 5vh;              /* was 50px */
-    margin-top: 6vh;             /* was 60px */
-    margin-bottom: 1vh;          /* was 10px */
+    font-size: 5vh;              /* was 50px */        /* was 60px */
+    margin-bottom: 3vh;          /* was 10px */
     text-align: center;
     color:#fde1d5;
 }
@@ -115,4 +117,132 @@ h1{
     flex-direction: column;
     align-items:
     center;
+}
+.header {
+    background-color: #ba4146;
+    display: flex;
+    align-items: center;           
+    justify-content: space-between; 
+    height: 90px;
+    padding: 0;                    /* אין padding מצדדים */
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.header .logo img {
+    height: 80px;
+    display: block;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;                     /* רווח בין הקישורים */
+    justify-items: end;           /* דוחף את הקישורים ימינה */
+}
+
+.header-right a {
+    color: #fde1d5;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.header-right a:hover {
+    background-color: #fde1d5;
+    color: #ba4146;
+}
+.form-container {
+    width: 380px;
+    padding: 30px;
+    border-radius: 16px;
+    font-family: "Outfit", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.input-box input,
+.input-box select {
+  width: 20vh;
+  border: none;
+  border-bottom: 2px solid #f2b6b6;
+  padding: 10px 10px 10px 36px;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+}
+
+.input-box label {
+  position: absolute;
+  left: 36px;
+  top: 10px;
+  color: #fde1d5;
+  font-size: 13px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label,
+.input-box select:focus + label,
+.input-box select:valid + label {
+  top: -10px;
+  font-size: 11px;
+  color: #e57373;
+}
+
+.icon {
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  font-size: 16px;
+  color: #e57373;
+}
+.radio-box {
+  margin-bottom: 25px;
+  font-size: 14px;
+  margin-right: -200px;
+}
+
+.radio-title {
+  display: block;
+  margin-bottom: 8px;
+  color: #fde1d5;
+}
+
+/* .radio-box label {
+
+} */
+.btn {
+  width: 100%;
+  border: none;
+  background: linear-gradient(135deg, #fde1d5, #e57373);
+  color: white;
+  padding: 14px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(236,64,122,0.4);
+  transition: 0.3s;
+  margin-bottom: 0; /* remove -200px */
+}
+
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 25px rgba(236,64,122,0.5);
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 20px;
 }
