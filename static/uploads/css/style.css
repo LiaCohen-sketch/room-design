@@ -21,28 +21,26 @@ body{
 }
 
 .hr-container {
-    position: relative;
-    display: flex;   
-    gap: 1.5vh;                 /* was 15px */
+    display: flex;
+    gap: 1.667vh;
     justify-content: center;
-    top: 4vh;           /* was -50px */
+    margin-top: 3vh; /* was -5.556px */
+}
+
+.hr {
+    
+    border: none;
+    height: 0.111vh;
+    background-color: black;
+    width: 180px;
+    margin: 0.056vh; /* was 0.556px */
 }
 
 #lineOne{
     background-color: #fde1d5;
 }
 
-.hr {
-    border: none; 
-    height: 0.1vh;              /* was 1px */
-    background-color: black;         
-    width: 15vh;                /* was 150px */
-    margin: 0.5vh;              /* was 5px */
-}
 
-#formTwo{
-    background-color: #ba4146;
-}
 
 .pictures{
     transition-duration: 0.4s;
@@ -117,6 +115,21 @@ h1{
     flex-direction: column;
     align-items:
     center;
+}
+.form-container2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+     width: 380px;
+    margin-left: auto;            /* ⬅️ מצמיד לימין */
+    padding: 30px;
+    border-radius: 16px;
+    font-family: "Outfit", sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
 }
 .header {
     background-color: #ba4146;
@@ -216,10 +229,6 @@ h1{
   display: block;
   margin-bottom: 8px;
   color: #fde1d5;
-}
-
-.radio-box label {
-
 }
 .btn {
   width: 100%;

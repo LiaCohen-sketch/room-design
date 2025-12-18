@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Lato&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/uploads/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+     <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <title>Document</title>
+    <style>
+  img {
+    max-width: 80%;
+    border: 2px solid #000;
+    border-radius: 10px;
+  } 
+  .notroom{
+    margin-left: 220px;
+  }
+  #room{    
+    margin-top: -60px;
+  }
+  #money{
+    left: 20px;
+  }
+
+</style>
+
+</head>
+<body>
+<div id = "header"></div>
+  </div>
+</div>
+<div class="main">
+<div class="hr-container"> 
+    <hr class="hr" id="line1"><hr class="hr" id="lineTwo"><hr class="hr" id="lineOne">
+</div>
+<br><br>
+<h1>Information Form</h1>
+    <div class="forms-wrapper">
+  <!-- העלאת תמונת החדר -->
+  <div  id="room"class="form-container">
+    <h2 class="font">room</h2>
+    <input type="file" id="roomUpload" accept="image/*">
+    <img id="roomPreview" class="pictures" src="" >
+  </div>
+
+  <!-- העלאת תמונת פריטים + תקציב -->
+   
+  <div class="form-container">
+    <div class="notroom">  <h2 class="font">funiture</h2>
+    <input type="file" id="itemsUpload" accept="image/*">
+    <img id="itemsPreview" class="pictures" src="" ></div>
+
+    
+    <div id="money"class="input-box">
+      <input type="number" id="budget" required>
+      <label for="budget">תקציב (₪)</label>
+    </div>
+
+    <button class="btn" onclick="submitForm()">שלח</button>
+  </div>
+</div>
+    </div>
+   
+<script>
+const roomUpload = document.getElementById('roomUpload');
+const roomPreview = document.getElementById('roomPreview');
+const itemsUpload = document.getElementById('itemsUpload');
+const itemsPreview = document.getElementById('itemsPreview');
+
+roomUpload.addEventListener('change', function() {
+  const file = this.files[0];
+  if(file){
+    const reader = new FileReader();
+    reader.onload = function(e){
+      roomPreview.src = e.target.result;
+    }
+    reader.readAsDataURL(file);
+  }
+});
+
+itemsUpload.addEventListener('change', function() {
+  const file = this.files[0];
+  if(file){
+    const reader = new FileReader();
+    reader.onload = function(e){
+      itemsPreview.src = e.target.result;
+    }
+    reader.readAsDataURL(file);
+  }
+});
+
+function submitForm(){
+  const budget = document.getElementById('budget').value;
+  if(!budget){
+    alert("אנא הזן תקציב");
+    return;
+  }
+  alert("הטופס נשלח בהצלחה!");
+}
+</script>
+            <script src="../static/uploads/js/header/header.js"></script>
+             <script src="../static/uploads/js/Qpage1.js"></script>
+             <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
