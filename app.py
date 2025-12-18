@@ -13,6 +13,7 @@ def index():
 @app.route('/quiz')
 def quiz():
     return render_template('hi.html')
+
 @app.route("/blue")
 def blue():
     return render_template('blue.html')
@@ -27,11 +28,11 @@ def white():
 
 @app.route("/pinkM")
 def pinkM():
-    return render_template('models.html')
+    return render_template('page3.html')
 
 @app.route("/blueM")
 def blueM():
-    return render_template('models2.html')
+    return render_template('page3.html')
 
 
 if __name__ == "__main__":

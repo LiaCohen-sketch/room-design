@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,9 +9,8 @@
 <link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Lato&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/uploads/css/style.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-     <script src="{{ url_for('static', filename='app.js') }}"></script>
+ <link rel="stylesheet" href="{{ url_for('static', filename='uploads/css/style.css') }}">
+
     <title>Document</title>
 </head>
 <body>
@@ -77,9 +76,11 @@
       <option value="Visual">Visual</option>
       <option value="Emotional">Emotional</option>
     </select>
+        <label>Disability</label>
+
 
   </div>
-    <button type="submit" class="btn" >Continue</button>
+    <button  onclick = "checkAge()" type="submit" class="btn" >Continue</button>
 
 </div>
 
@@ -88,6 +89,7 @@
     </div>
 
     </div>
+         <script src="{{ url_for('static', filename='app.js') }}"></script>
             <script src="../static/uploads/js/header/header.js"></script>
             <script src="../static/uploads/js/Qpage1.js"></script>
              <!-- <script src="{{ url_for('static', filename='js/app.js') }}"></script> -->
