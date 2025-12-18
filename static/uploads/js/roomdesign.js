@@ -27,3 +27,7 @@
 function quiz() {
   window.location.href = "/quiz";
 }
+
+function homePage(){
+  window.location.href = "/index.html";
+}
