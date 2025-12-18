@@ -17,3 +17,19 @@ function checkAge() {
         window.location.href = "/white";
     }
 }
+<<<<<<< HEAD
+=======
+
+function showDisabilityDetails() {
+    document.getElementById("disability").style.display = "block";
+} 
+
+function blueM(){
+    window.location.href = "/blueM";
+}
+
+function pinkM(){
+    window.location.href = "/pinkM";
+}
+
+>>>>>>> 1df3ab04ba5344a07ccdb67359ab1e03a5275527
