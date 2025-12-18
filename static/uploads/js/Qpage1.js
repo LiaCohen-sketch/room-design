@@ -29,12 +29,14 @@ function pinkM(){
 }
 
 function submitForm(){
-    const age = document.getElementById("age").value;
+    var age = parseInt(document.getElementById("budget").value);
+    console.log(age, typeof age);
 
-    if (age <= 10) {
+
+    if (budget <= 1000) {
         window.location.href = "/models2";
     } 
-    else if (age >= 12 && age <= 18) {
+    else {
         window.location.href = "/models";
     } 
 }
