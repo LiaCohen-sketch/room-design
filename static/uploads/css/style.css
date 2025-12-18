@@ -233,9 +233,9 @@ h1{
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(236,64,122,0.4);
   transition: 0.3s;
-  grid-column: 1 / -1; /* תופס את כל הרוחב */
-  margin-top: 20px;
+  margin-bottom: 0; /* remove -200px */
 }
+
 
 .btn:hover {
   transform: translateY(-2px);

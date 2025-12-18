@@ -66,15 +66,25 @@
 
   <!-- מגדר -->
   <div class="radio-box">
-    <span class="radio-title">Gender</span>
+    <span class="radio-title">What Is Your Gender?</span>
     <label><input type="radio" name="gender" value = "male" required> Male</label>
     <label><input type="radio" name="gender" value = "female"> Female</label>
   </div>
 
    <div class="radio-box">
-    <span class="radio-title">Gender</span>
-    <label><input type="radio" name="gender" value = "male" required> Male</label>
-    <label><input type="radio" name="gender" value = "female"> Female</label>
+    <span class="radio-title">Do You Have Any Disability?</span>
+    <label><input type="radio" name="disability" value = "No" required> No</label>
+    <label><input type="radio" name="disability"  onclick = "showDisabilityDetails()" value = "Yes"> Yes</label>
+
+    <select id="disability" required style = "display: none;">
+      <option value="" disabled selected></option>
+      <option value="hearing">hearing</option>
+      <option value="physical">physical</option>
+      <option value="Visual">Visual</option>
+      <option value="Emotional">Emotional</option>
+    </select>
+    <label>Favorite color</label>
+
   </div>
     <button type="submit" class="btn" >Continue</button>
 

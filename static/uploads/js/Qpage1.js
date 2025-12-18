@@ -19,3 +19,7 @@ function checkAge() {
 
     return false; 
 }
+
+function showDisabilityDetails() {
+    document.getElementById("disability").style.display = "block";
+} 
