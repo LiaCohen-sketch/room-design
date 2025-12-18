@@ -24,7 +24,7 @@ def teens():
 
 @app.route("/adults")
 def adults():
-    return render_template('hi.html')
+    return render_template('white.html')
 
 
 if __name__ == "__main__":
