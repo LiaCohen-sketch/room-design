@@ -14,3 +14,16 @@ function checkAge() {
         alert("No matching age group");
     }
 }
+
+function showDisabilityDetails() {
+    document.getElementById("disability").style.display = "block";
+} 
+
+function blueM(){
+    window.location.href = "/blueM";
+}
+
+function pinkM(){
+    window.location.href = "/pinkM";
+}
+
