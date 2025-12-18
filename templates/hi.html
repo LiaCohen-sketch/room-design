@@ -31,7 +31,7 @@
 <br><br>
 <h1>Information Form</h1>
     <div class="form-container">
-        <form>
+<form id = "intoform" onsubmit="return checkAge()">
 <div class="form-container">
         <div class="form-grid">
 
@@ -67,19 +67,26 @@
   <!-- מגדר -->
   <div class="radio-box">
     <span class="radio-title">Gender</span>
-    <label><input type="radio" name="gender"> Male</label>
-    <label><input type="radio" name="gender"> Female</label>
+    <label><input type="radio" name="gender" value = "male" required> Male</label>
+    <label><input type="radio" name="gender" value = "female"> Female</label>
   </div>
+
+   <div class="radio-box">
+    <span class="radio-title">Gender</span>
+    <label><input type="radio" name="gender" value = "male" required> Male</label>
+    <label><input type="radio" name="gender" value = "female"> Female</label>
+  </div>
+    <button type="submit" class="btn" >Continue</button>
 
 </div>
 
-<button type="button" class="btn" onclick="checkAge()">Continue</button>
 
         </form>
     </div>
+
     </div>
             <script src="../static/uploads/js/header/header.js"></script>
-             <script src="../static/uploads/js/Qpage1.js"></script>
-             <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+            <script src="../static/uploads/js/Qpage1.js"></script>
+             <!-- <script src="{{ url_for('static', filename='js/app.js') }}"></script> -->
 </body>
 </html>
