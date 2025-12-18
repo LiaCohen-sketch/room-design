@@ -1,24 +1,19 @@
+
 function checkAge() {
-    const form = document.getElementById("intoform");
-
-    if (!form.checkValidity()) {
-        return false;
-    }
-
     const age = document.getElementById("age").value;
-
     if (age <= 10) {
         window.location.href = "/blue";
     } 
-    else if (age <= 18) {
+    else if (age >= 12 && age <= 18) {
         window.location.href = "/pink";
     } 
-    else {
+    else if (age > 30) {
         window.location.href = "/white";
+    } 
+    else {
+        alert("No matching age group");
     }
 }
-<<<<<<< HEAD
-=======
 
 function showDisabilityDetails() {
     document.getElementById("disability").style.display = "block";
@@ -32,4 +27,3 @@ function pinkM(){
     window.location.href = "/pinkM";
 }
 
->>>>>>> 1df3ab04ba5344a07ccdb67359ab1e03a5275527
