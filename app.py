@@ -13,17 +13,16 @@ def index():
 @app.route('/quiz')
 def quiz():
     return render_template('hi.html')
-@app.route("/kids")
-def kids():
-    
+@app.route("/blue")
+def blue():
     return render_template('blue.html')
 
-@app.route("/teens")
-def teens():
+@app.route("/pink")
+def pink():
     return render_template('pink.html')
 
-@app.route("/adults")
-def adults():
+@app.route("/white")
+def white():
     return render_template('white.html')
 
 @app.route("/pinkM")

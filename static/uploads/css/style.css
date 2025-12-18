@@ -154,16 +154,17 @@ h1{
 }
 .form-container {
     width: 380px;
-    margin-left: auto;            /* ⬅️ מצמיד לימין */
     padding: 30px;
     border-radius: 16px;
     font-family: "Outfit", sans-serif;
     position: absolute;
-    left: 70%;
-    top: 52%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
     justify-content: center;
 }
+
 .input-box {
   position: relative;
   margin-bottom: 28px;
@@ -218,9 +219,9 @@ h1{
   color: #fde1d5;
 }
 
-.radio-box label {
+/* .radio-box label {
 
-}
+} */
 .btn {
   width: 100%;
   border: none;
@@ -232,7 +233,9 @@ h1{
   cursor: pointer;
   box-shadow: 0 10px 20px rgba(236,64,122,0.4);
   transition: 0.3s;
+  margin-bottom: 0; /* remove -200px */
 }
+
 
 .btn:hover {
   transform: translateY(-2px);
