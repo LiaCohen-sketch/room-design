@@ -2,19 +2,21 @@
 
 body{
     background-color: #fde1d5;
+    margin: 0;
+    padding: 0;
 }
 
 .main{
-    margin-top: 11.111vh;
+    margin-top: 10vh;           /* was 100px */
     background-color: #ba4146;
-    height: 85vh;
-    width: 95vw;
-    border-radius: 0.889vh;
+    height: 70vh;
+    width: 150vh;
+    border-radius: 0.8vh;       /* was 8px */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .hr-container {
@@ -30,18 +32,17 @@ body{
     height: 0.111vh;
     background-color: black;
     width: 180px;
-    height: 2px;    
     margin: 0.056vh; /* was 0.556px */
 }
 
 #formTwo{
-    background-color: #c76164;
+    background-color: #fde1d5;
 }
 
 .pictures{
     transition-duration: 0.4s;
-    width: 250px;
-    height: 250px;
+    width: 170px;
+    height: 170px;
     display: grid;
     border-radius: 3.333vh;
     align-items: center;
@@ -50,19 +51,20 @@ body{
 }
 
 .pictures:hover{
-    width: 270px;   /* was 200px */
-    height: 270px;  /* was 200px */
+    width: 180px;   /* was 200px */
+    height: 180px;  /* was 200px */
     transition-duration: 0.4s;
 }
 
 #pictures{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 3vh;          /* was 30px */
-    margin-left: -2vh; /* was -20px */
-    justify-content: center;
-    margin-top: 4.5vh; /* was 45px */
+    margin-left: 2vh;
+    display: grid;
+    grid-template-columns: repeat(4, 170px); /* 4 תמונות בשורה */
+    grid-template-rows: repeat(2, auto);   /* 2 שורות */
+    gap: 3vh;
+    justify-items: center;
+    align-items: center;
+    margin-top: 4.5vh;
 }
 
 .picContainer{
@@ -75,10 +77,10 @@ body{
     text-align: center;
     background-color: #fde1d5;
     border-radius: 2vh; /* was 20px */
-    margin-top: -410px;  /* was -300px */
-    height: 240px;       /* was 180px */
-    width: 240px;        /* was 180px */
-    margin-left: 1170px;/* was 922px */
+    margin-top: -265px;  /* was -300px */
+    height: 170px;       /* was 180px */
+    width: 170px;        /* was 180px */
+    margin-left: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,8 +90,8 @@ body{
 
 #uploadBtn:hover{
     transition-duration: 0.3s;
-    height: 260px; /* was 190px */
-    width: 260px;  /* was 190px */
+    height: 180px; /* was 190px */
+    width: 180px;  /* was 190px */
 }
 
 #imageUpload{
