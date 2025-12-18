@@ -231,13 +231,10 @@ h1{
   margin-bottom: 8px;
   color: #fde1d5;
 }
-<<<<<<< HEAD
-=======
 
 /* .radio-box label {
 
 } */
->>>>>>> b87d363e7cc9471cec8f88e839c0a0338c3ee30c
 .btn {
   width: 100%;
   border: none;
@@ -261,4 +258,5 @@ h1{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 25px 20px;
+  margin-top:50px;
 }
