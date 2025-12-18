@@ -27,13 +27,11 @@ header.innerHTML = `
 
   </style>
   <div class="header">
-      <a href="index.html" class="logo"><img src ="../static/uploads/images/logo.png" width="170" height="80"></a>
+      <a href="{{ url_for('index') }}" class="logo"><img src ="../static/uploads/images/logo.png" alt = "logo" width="170" height="80"></a>
       <div class="header-right">
-          <a href="">Items</a>
           <a  onclick = "quiz()">Your Design Quiz</a>
               </div>
   </div>
       <script src="../static/uploads/roomdesign.js"></script>
 
 `;
-

@@ -1,6 +1,6 @@
-
-function checkAge() {
+function checkAge(age) {
     const age = document.getElementById("age").value;
+    console.log(age);
     if (age <= 10) {
         window.location.href = "/blue";
     } 
@@ -14,6 +14,7 @@ function checkAge() {
         alert("No matching age group");
     }
 }
+
 
 function showDisabilityDetails() {
     document.getElementById("disability").style.display = "block";
